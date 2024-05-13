@@ -1,0 +1,130 @@
+body {
+    background-color: #373737;
+    background-image: url("../img/background1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid black;
+    background-color: rgba(68, 67, 68, 0.2);
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+figcaption {
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.logo-text {
+    margin-left: 10px;
+    margin-top: 60px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+nav,
+footer {
+    width: 100%;
+    background-color: rgba(22, 3, 3, 0.7);
+    height: 30px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li {
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+nav li a:hover, nav li a.current {
+    color: orange;
+    text-decoration: none;
+}
+
+.section-box {
+    display: flex;
+}
+
+.article-box {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.content-top, .content-bot {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-top img, .content-bot img {
+    width: 200px;
+}
+
+.text {
+    flex: 1;
+    color: white;
+    margin-right: 20px;
+}
+
+aside {
+    width: 30%;
+    padding: 0px 20px;
+    border-left: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+aside section a { 
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    color: white;
+    text-decoration: none;
+}
+
+aside section a:hover {
+    color: orange;
+    background-color: rgba(31, 28, 28, 0.2);
+}
+
+aside>section>h2, aside>section>p {
+    color: white;
+}
+
+footer {
+    height: auto;
+}
+
+footer p {
+    color: white;
+    margin-left: 20px;
+}
