@@ -81,12 +81,12 @@ nav li a:hover, nav li a.current {
     margin-bottom: 20px;
 }
 
-.content-top, .content-bot {
+.content-main {
     display: flex;
     flex-direction: row;
 }
 
-.content-top img, .content-bot img {
+.content-main img {
     width: 200px;
 }
 
